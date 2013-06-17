@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AA8983B46DE4900AAF02321 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5715A0064C54BDBBD41BFE9 /* libPods.a */; };
+		20D70B7DA8984601880DE241 /* libPods-ConversorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D339AE31302A4C7596AF08EC /* libPods-ConversorTests.a */; };
+		7167C0E0176FB41900A2F4C6 /* TKConversorComprimento.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */; };
+		7167C0ED176FC69E00A2F4C6 /* ConversorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7167C0EC176FC69E00A2F4C6 /* ConversorTests.m */; };
 		716C7078176EAC4200D0A1EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C7077176EAC4200D0A1EB /* UIKit.framework */; };
 		716C707A176EAC4200D0A1EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C7079176EAC4200D0A1EB /* Foundation.framework */; };
 		716C707C176EAC4200D0A1EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C707B176EAC4200D0A1EB /* CoreGraphics.framework */; };
@@ -23,7 +27,8 @@
 		716C70A0176EAC4300D0A1EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C7077176EAC4200D0A1EB /* UIKit.framework */; };
 		716C70A1176EAC4300D0A1EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C7079176EAC4200D0A1EB /* Foundation.framework */; };
 		716C70A9176EAC4300D0A1EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 716C70A7176EAC4300D0A1EB /* InfoPlist.strings */; };
-		716C70AC176EAC4300D0A1EB /* ConversorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C70AB176EAC4300D0A1EB /* ConversorTests.m */; };
+		716C70B7176EAE3D00D0A1EB /* TKConversorComprimento.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */; };
+		716C70B9176EB72E00D0A1EB /* imgres.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 716C70B8176EB72E00D0A1EB /* imgres.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BE8C11B731944F28F46A4A2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		3991214701C945C59D8F5A63 /* Pods-ConversorTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConversorTests.xcconfig"; path = "Pods/Pods-ConversorTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		7167C0EC176FC69E00A2F4C6 /* ConversorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversorTests.m; sourceTree = "<group>"; };
 		716C7074176EAC4200D0A1EB /* Conversor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conversor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716C7077176EAC4200D0A1EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		716C7079176EAC4200D0A1EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,8 +66,11 @@
 		716C709E176EAC4300D0A1EB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		716C70A6176EAC4300D0A1EB /* ConversorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConversorTests-Info.plist"; sourceTree = "<group>"; };
 		716C70A8176EAC4300D0A1EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		716C70AA176EAC4300D0A1EB /* ConversorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversorTests.h; sourceTree = "<group>"; };
-		716C70AB176EAC4300D0A1EB /* ConversorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversorTests.m; sourceTree = "<group>"; };
+		716C70B5176EAE3D00D0A1EB /* TKConversorComprimento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKConversorComprimento.h; sourceTree = "<group>"; };
+		716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKConversorComprimento.m; sourceTree = "<group>"; };
+		716C70B8176EB72E00D0A1EB /* imgres.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpeg; sourceTree = "<group>"; };
+		C5715A0064C54BDBBD41BFE9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D339AE31302A4C7596AF08EC /* libPods-ConversorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConversorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +81,7 @@
 				716C7078176EAC4200D0A1EB /* UIKit.framework in Frameworks */,
 				716C707A176EAC4200D0A1EB /* Foundation.framework in Frameworks */,
 				716C707C176EAC4200D0A1EB /* CoreGraphics.framework in Frameworks */,
+				0AA8983B46DE4900AAF02321 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +92,7 @@
 				716C709F176EAC4300D0A1EB /* SenTestingKit.framework in Frameworks */,
 				716C70A0176EAC4300D0A1EB /* UIKit.framework in Frameworks */,
 				716C70A1176EAC4300D0A1EB /* Foundation.framework in Frameworks */,
+				20D70B7DA8984601880DE241 /* libPods-ConversorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +106,8 @@
 				716C70A4176EAC4300D0A1EB /* ConversorTests */,
 				716C7076176EAC4200D0A1EB /* Frameworks */,
 				716C7075176EAC4200D0A1EB /* Products */,
+				0BE8C11B731944F28F46A4A2 /* Pods.xcconfig */,
+				3991214701C945C59D8F5A63 /* Pods-ConversorTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +127,8 @@
 				716C7079176EAC4200D0A1EB /* Foundation.framework */,
 				716C707B176EAC4200D0A1EB /* CoreGraphics.framework */,
 				716C709E176EAC4300D0A1EB /* SenTestingKit.framework */,
+				C5715A0064C54BDBBD41BFE9 /* libPods.a */,
+				D339AE31302A4C7596AF08EC /* libPods-ConversorTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,7 +142,10 @@
 				716C7092176EAC4200D0A1EB /* MainStoryboard_iPad.storyboard */,
 				716C7095176EAC4200D0A1EB /* TKViewController.h */,
 				716C7096176EAC4200D0A1EB /* TKViewController.m */,
+				716C70B8176EB72E00D0A1EB /* imgres.jpeg */,
 				716C707E176EAC4200D0A1EB /* Supporting Files */,
+				716C70B5176EAE3D00D0A1EB /* TKConversorComprimento.h */,
+				716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */,
 			);
 			path = Conversor;
 			sourceTree = "<group>";
@@ -147,9 +167,8 @@
 		716C70A4176EAC4300D0A1EB /* ConversorTests */ = {
 			isa = PBXGroup;
 			children = (
-				716C70AA176EAC4300D0A1EB /* ConversorTests.h */,
-				716C70AB176EAC4300D0A1EB /* ConversorTests.m */,
 				716C70A5176EAC4300D0A1EB /* Supporting Files */,
+				7167C0EC176FC69E00A2F4C6 /* ConversorTests.m */,
 			);
 			path = ConversorTests;
 			sourceTree = "<group>";
@@ -170,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 716C70AF176EAC4300D0A1EB /* Build configuration list for PBXNativeTarget "Conversor" */;
 			buildPhases = (
+				A90D0BF013B54EF69D46F29C /* Check Pods Manifest.lock */,
 				716C7070176EAC4200D0A1EB /* Sources */,
 				716C7071176EAC4200D0A1EB /* Frameworks */,
 				716C7072176EAC4200D0A1EB /* Resources */,
+				08FE82F984B1413A9E537C26 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,10 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 716C70B2176EAC4300D0A1EB /* Build configuration list for PBXNativeTarget "ConversorTests" */;
 			buildPhases = (
+				1E38D8EA3DE0419A9D935556 /* Check Pods Manifest.lock */,
 				716C7098176EAC4300D0A1EB /* Sources */,
 				716C7099176EAC4300D0A1EB /* Frameworks */,
 				716C709A176EAC4300D0A1EB /* Resources */,
 				716C709B176EAC4300D0A1EB /* ShellScript */,
+				7F66FBF358DD42C8B81C5F1D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +264,7 @@
 				716C708E176EAC4200D0A1EB /* Default-568h@2x.png in Resources */,
 				716C7091176EAC4200D0A1EB /* MainStoryboard_iPhone.storyboard in Resources */,
 				716C7094176EAC4200D0A1EB /* MainStoryboard_iPad.storyboard in Resources */,
+				716C70B9176EB72E00D0A1EB /* imgres.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +279,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		08FE82F984B1413A9E537C26 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		1E38D8EA3DE0419A9D935556 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
 		716C709B176EAC4300D0A1EB /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,6 +320,34 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		7F66FBF358DD42C8B81C5F1D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ConversorTests-resources.sh\"\n";
+		};
+		A90D0BF013B54EF69D46F29C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -278,6 +358,7 @@
 				716C7084176EAC4200D0A1EB /* main.m in Sources */,
 				716C7088176EAC4200D0A1EB /* TKAppDelegate.m in Sources */,
 				716C7097176EAC4200D0A1EB /* TKViewController.m in Sources */,
+				716C70B7176EAE3D00D0A1EB /* TKConversorComprimento.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +366,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716C70AC176EAC4300D0A1EB /* ConversorTests.m in Sources */,
+				7167C0E0176FB41900A2F4C6 /* TKConversorComprimento.m in Sources */,
+				7167C0ED176FC69E00A2F4C6 /* ConversorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +477,7 @@
 		};
 		716C70B0176EAC4300D0A1EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE8C11B731944F28F46A4A2 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conversor/Conversor-Prefix.pch";
@@ -406,6 +489,7 @@
 		};
 		716C70B1176EAC4300D0A1EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE8C11B731944F28F46A4A2 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Conversor/Conversor-Prefix.pch";
@@ -417,6 +501,7 @@
 		};
 		716C70B3176EAC4300D0A1EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3991214701C945C59D8F5A63 /* Pods-ConversorTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Conversor.app/Conversor";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -434,6 +519,7 @@
 		};
 		716C70B4176EAC4300D0A1EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3991214701C945C59D8F5A63 /* Pods-ConversorTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Conversor.app/Conversor";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -468,6 +554,7 @@
 				716C70B1176EAC4300D0A1EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		716C70B2176EAC4300D0A1EB /* Build configuration list for PBXNativeTarget "ConversorTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +563,7 @@
 				716C70B4176EAC4300D0A1EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,32 +1,41 @@
-//
-//  ConversorTests.m
-//  ConversorTests
-//
-//  Created by Fábio Nogueira  on 16/06/13.
-//  Copyright (c) 2013 Fábio Nogueira . All rights reserved.
-//
+#import "Kiwi.h"
+#import "TKConversorComprimento.h"
 
-#import "ConversorTests.h"
+SPEC_BEGIN(ConversorTests)
 
-@implementation ConversorTests
+describe(@"\n\n\nTeste de unidades de comprimento", ^{
+  
+  __block TKConversorComprimento *objConversorComprimento;
+  
+  beforeAll(^{
+    objConversorComprimento = [[TKConversorComprimento alloc] init];
+  });
+  
+  context(@"Teste da Unidade Centimetro", ^{
 
-- (void)setUp
-{
-    [super setUp];
-    
-    // Set-up code here.
-}
+    it(@"Centimetro para Metro", ^{
+      float centimento = [objConversorComprimento centimetroParaMetro:100];
+      [[theValue(centimento) should] equal:theValue(1)];
+    });
+  });
+  
+  
+  context(@"Teste da Unidade Metro", ^{
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
-}
+    it(@"Metro para centimetro", ^{
+      float metro = [objConversorComprimento metroParaCentimetro:1];
+      [[theValue(metro) should] equal:theValue(100)];
+    });
+  });
+  
+  
+  pending_(@"Teste de um metodo que ainda irei implementar", ^{});
+  
+});
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in ConversorTests");
-}
+SPEC_END
 
-@end
+// beforeAll
+
+// should
+// be
