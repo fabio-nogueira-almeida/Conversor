@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Fábio Nogueira . All rights reserved.
 //
 
-#import "TKConversorComprimento.h"
+#import "CESConversorComprimento.h"
 
-@implementation TKConversorComprimento
+@implementation CESConversorComprimento
 
 #pragma mark - Metodos de Teste unitário
 
@@ -28,7 +28,7 @@
 #pragma mark - Metodos de teste por comportamento
 
 - (NSString*)isIMCCreated {
-  TKUser *imcUser = [self creatingIMCWithUserName:@"Fábio" andHeight:1.67 andWeight:65];
+  CESUser *imcUser = [self creatingIMCWithUserName:@"Fábio" andHeight:1.67 andWeight:65];
   NSString *message = @"";
   
   if (imcUser) {
@@ -40,11 +40,11 @@
   return message;
 }
 
-- (TKUser*)creatingIMCWithUserName:(NSString*)name
+- (CESUser*)creatingIMCWithUserName:(NSString*)name
                                andHeight:(float)height
                                andWeight:(float)weight {
   
-  TKUser *user = [[TKUser alloc] init];
+  CESUser *user = [[CESUser alloc] init];
   user.name = name;
   user.height = height;
   user.weight = weight;

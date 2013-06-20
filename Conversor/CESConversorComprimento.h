@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TKUser.h"
+#import "CESUser.h"
 
-@interface TKConversorComprimento : NSObject
+@interface CESConversorComprimento : NSObject
 
 - (NSString*)isIMCCreated;
 

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0AA8983B46DE4900AAF02321 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5715A0064C54BDBBD41BFE9 /* libPods.a */; };
 		20D70B7DA8984601880DE241 /* libPods-ConversorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D339AE31302A4C7596AF08EC /* libPods-ConversorTests.a */; };
-		7167C0E0176FB41900A2F4C6 /* TKConversorComprimento.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */; };
+		7167C0E0176FB41900A2F4C6 /* CESConversorComprimento.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C70B6176EAE3D00D0A1EB /* CESConversorComprimento.m */; };
 		7167C0ED176FC69E00A2F4C6 /* ConversorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7167C0EC176FC69E00A2F4C6 /* ConversorTests.m */; };
 		716C7078176EAC4200D0A1EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C7077176EAC4200D0A1EB /* UIKit.framework */; };
 		716C707A176EAC4200D0A1EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C7079176EAC4200D0A1EB /* Foundation.framework */; };
@@ -27,9 +27,9 @@
 		716C70A0176EAC4300D0A1EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C7077176EAC4200D0A1EB /* UIKit.framework */; };
 		716C70A1176EAC4300D0A1EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C7079176EAC4200D0A1EB /* Foundation.framework */; };
 		716C70A9176EAC4300D0A1EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 716C70A7176EAC4300D0A1EB /* InfoPlist.strings */; };
-		716C70B7176EAE3D00D0A1EB /* TKConversorComprimento.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */; };
+		716C70B7176EAE3D00D0A1EB /* CESConversorComprimento.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C70B6176EAE3D00D0A1EB /* CESConversorComprimento.m */; };
 		716C70B9176EB72E00D0A1EB /* imgres.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 716C70B8176EB72E00D0A1EB /* imgres.jpeg */; };
-		71B2C7B0177274D1005F74B3 /* TKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B2C7AF177274D1005F74B3 /* TKUser.m */; };
+		71B2C7B0177274D1005F74B3 /* CESUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B2C7AF177274D1005F74B3 /* CESUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,11 +67,11 @@
 		716C709E176EAC4300D0A1EB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		716C70A6176EAC4300D0A1EB /* ConversorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConversorTests-Info.plist"; sourceTree = "<group>"; };
 		716C70A8176EAC4300D0A1EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		716C70B5176EAE3D00D0A1EB /* TKConversorComprimento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKConversorComprimento.h; sourceTree = "<group>"; };
-		716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKConversorComprimento.m; sourceTree = "<group>"; };
+		716C70B5176EAE3D00D0A1EB /* CESConversorComprimento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CESConversorComprimento.h; sourceTree = "<group>"; };
+		716C70B6176EAE3D00D0A1EB /* CESConversorComprimento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CESConversorComprimento.m; sourceTree = "<group>"; };
 		716C70B8176EB72E00D0A1EB /* imgres.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpeg; sourceTree = "<group>"; };
-		71B2C7AE177274D1005F74B3 /* TKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKUser.h; sourceTree = "<group>"; };
-		71B2C7AF177274D1005F74B3 /* TKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKUser.m; sourceTree = "<group>"; };
+		71B2C7AE177274D1005F74B3 /* CESUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CESUser.h; sourceTree = "<group>"; };
+		71B2C7AF177274D1005F74B3 /* CESUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CESUser.m; sourceTree = "<group>"; };
 		C5715A0064C54BDBBD41BFE9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D339AE31302A4C7596AF08EC /* libPods-ConversorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConversorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -181,10 +181,10 @@
 		71B2C7B11772752D005F74B3 /* IMC */ = {
 			isa = PBXGroup;
 			children = (
-				716C70B5176EAE3D00D0A1EB /* TKConversorComprimento.h */,
-				716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */,
-				71B2C7AE177274D1005F74B3 /* TKUser.h */,
-				71B2C7AF177274D1005F74B3 /* TKUser.m */,
+				716C70B5176EAE3D00D0A1EB /* CESConversorComprimento.h */,
+				716C70B6176EAE3D00D0A1EB /* CESConversorComprimento.m */,
+				71B2C7AE177274D1005F74B3 /* CESUser.h */,
+				71B2C7AF177274D1005F74B3 /* CESUser.m */,
 			);
 			name = IMC;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 		716C706C176EAC4200D0A1EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = TK;
+				CLASSPREFIX = CES;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Fábio Nogueira ";
 			};
@@ -379,8 +379,8 @@
 				716C7084176EAC4200D0A1EB /* main.m in Sources */,
 				716C7088176EAC4200D0A1EB /* TKAppDelegate.m in Sources */,
 				716C7097176EAC4200D0A1EB /* TKViewController.m in Sources */,
-				716C70B7176EAE3D00D0A1EB /* TKConversorComprimento.m in Sources */,
-				71B2C7B0177274D1005F74B3 /* TKUser.m in Sources */,
+				716C70B7176EAE3D00D0A1EB /* CESConversorComprimento.m in Sources */,
+				71B2C7B0177274D1005F74B3 /* CESUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7167C0E0176FB41900A2F4C6 /* TKConversorComprimento.m in Sources */,
+				7167C0E0176FB41900A2F4C6 /* CESConversorComprimento.m in Sources */,
 				7167C0ED176FC69E00A2F4C6 /* ConversorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

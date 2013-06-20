@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Fábio Nogueira . All rights reserved.
 //
 
-#import "TKUser.h"
+#import "CESUser.h"
 
-@implementation TKUser
+@implementation CESUser
 
 @synthesize name;
 

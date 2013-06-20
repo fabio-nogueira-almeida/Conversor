@@ -1,14 +1,14 @@
 #import "Kiwi.h"
-#import "TKConversorComprimento.h"
+#import "CESConversorComprimento.h"
 
 SPEC_BEGIN(ConversorTests)
 
 describe(@"\n\n\nTeste unitário", ^{
   
-  __block TKConversorComprimento *objConversorComprimento;
+  __block CESConversorComprimento *objConversorComprimento;
   
   beforeAll(^{
-    objConversorComprimento = [[TKConversorComprimento alloc] init];
+    objConversorComprimento = [[CESConversorComprimento alloc] init];
   });
   
   context(@"Teste da Unidade Centimetro", ^{
@@ -36,10 +36,10 @@ describe(@"\n\n\nTeste unitário", ^{
 
 describe(@"\n\n\nTeste de comportamento", ^{
   
-  __block TKConversorComprimento *objConversorComprimento;
+  __block CESConversorComprimento *objConversorComprimento;
   
   beforeAll(^{
-    objConversorComprimento = [[TKConversorComprimento alloc] init];
+    objConversorComprimento = [[CESConversorComprimento alloc] init];
   });
   
   context(@"Cadastro de IMC", ^{

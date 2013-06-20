@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TKUser : NSObject
+@interface CESUser : NSObject
 
 @property (nonatomic, strong) NSString *name;
 @property float height;
