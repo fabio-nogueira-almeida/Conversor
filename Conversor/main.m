@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "TKAppDelegate.h"
+#import "CESAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
   @autoreleasepool {
-      return UIApplicationMain(argc, argv, nil, NSStringFromClass([TKAppDelegate class]));
+      return UIApplicationMain(argc, argv, nil, NSStringFromClass([CESAppDelegate class]));
   }
 }

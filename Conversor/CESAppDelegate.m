@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Fábio Nogueira . All rights reserved.
 //
 
-#import "TKAppDelegate.h"
+#import "CESAppDelegate.h"
 
-@implementation TKAppDelegate
+@implementation CESAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

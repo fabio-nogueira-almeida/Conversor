@@ -13,7 +13,7 @@ describe(@"\n\n\nTeste unitário", ^{
   
   context(@"Teste da Unidade Centimetro", ^{
 
-    it(@"Dado que um valor de Centimetro, devemos retornar a quantidade de Metro", ^{
+    it(@"Centimetro para Metro", ^{
       float centimento = [objConversorComprimento centimetroParaMetro:100];
       [[theValue(centimento) should] equal:theValue(1)];
     });
@@ -22,7 +22,7 @@ describe(@"\n\n\nTeste unitário", ^{
   
   context(@"Teste da Unidade Metro", ^{
 
-    it(@"Dado que um valor de Metro, devemos retornar o valor equivalente em centimetro", ^{
+    it(@"Metro para Centimetro", ^{
       float metro = [objConversorComprimento metroParaCentimetro:1];
       [[theValue(metro) should] equal:theValue(100)];
     });
@@ -46,12 +46,10 @@ describe(@"\n\n\nTeste de comportamento", ^{
     
     it(@"Dado que um usuário realize o cadastro de IMC, o sistema retorna com mensagem de sucesso", ^{
 
-      NSString *message = [objConversorComprimento isIMCCreated];
+      NSString *message = [objConversorComprimento imcCreated];
       [[theValue(message) shouldNot] equal:@"Cadastro de IMC falhou"];
     });
   });
-  
-
 });
          
 

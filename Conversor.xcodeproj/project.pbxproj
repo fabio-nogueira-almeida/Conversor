@@ -16,13 +16,13 @@
 		716C707C176EAC4200D0A1EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C707B176EAC4200D0A1EB /* CoreGraphics.framework */; };
 		716C7082176EAC4200D0A1EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 716C7080176EAC4200D0A1EB /* InfoPlist.strings */; };
 		716C7084176EAC4200D0A1EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C7083176EAC4200D0A1EB /* main.m */; };
-		716C7088176EAC4200D0A1EB /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C7087176EAC4200D0A1EB /* TKAppDelegate.m */; };
+		716C7088176EAC4200D0A1EB /* CESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C7087176EAC4200D0A1EB /* CESAppDelegate.m */; };
 		716C708A176EAC4200D0A1EB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 716C7089176EAC4200D0A1EB /* Default.png */; };
 		716C708C176EAC4200D0A1EB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 716C708B176EAC4200D0A1EB /* Default@2x.png */; };
 		716C708E176EAC4200D0A1EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 716C708D176EAC4200D0A1EB /* Default-568h@2x.png */; };
 		716C7091176EAC4200D0A1EB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716C708F176EAC4200D0A1EB /* MainStoryboard_iPhone.storyboard */; };
 		716C7094176EAC4200D0A1EB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716C7092176EAC4200D0A1EB /* MainStoryboard_iPad.storyboard */; };
-		716C7097176EAC4200D0A1EB /* TKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C7096176EAC4200D0A1EB /* TKViewController.m */; };
+		716C7097176EAC4200D0A1EB /* CESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C7096176EAC4200D0A1EB /* CESViewController.m */; };
 		716C709F176EAC4300D0A1EB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C709E176EAC4300D0A1EB /* SenTestingKit.framework */; };
 		716C70A0176EAC4300D0A1EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C7077176EAC4200D0A1EB /* UIKit.framework */; };
 		716C70A1176EAC4300D0A1EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716C7079176EAC4200D0A1EB /* Foundation.framework */; };
@@ -54,15 +54,15 @@
 		716C7081176EAC4200D0A1EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		716C7083176EAC4200D0A1EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		716C7085176EAC4200D0A1EB /* Conversor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Conversor-Prefix.pch"; sourceTree = "<group>"; };
-		716C7086176EAC4200D0A1EB /* TKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAppDelegate.h; sourceTree = "<group>"; };
-		716C7087176EAC4200D0A1EB /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
+		716C7086176EAC4200D0A1EB /* CESAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CESAppDelegate.h; sourceTree = "<group>"; };
+		716C7087176EAC4200D0A1EB /* CESAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CESAppDelegate.m; sourceTree = "<group>"; };
 		716C7089176EAC4200D0A1EB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		716C708B176EAC4200D0A1EB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		716C708D176EAC4200D0A1EB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		716C7090176EAC4200D0A1EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		716C7093176EAC4200D0A1EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		716C7095176EAC4200D0A1EB /* TKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKViewController.h; sourceTree = "<group>"; };
-		716C7096176EAC4200D0A1EB /* TKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
+		716C7095176EAC4200D0A1EB /* CESViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CESViewController.h; sourceTree = "<group>"; };
+		716C7096176EAC4200D0A1EB /* CESViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CESViewController.m; sourceTree = "<group>"; };
 		716C709D176EAC4300D0A1EB /* ConversorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		716C709E176EAC4300D0A1EB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		716C70A6176EAC4300D0A1EB /* ConversorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConversorTests-Info.plist"; sourceTree = "<group>"; };
@@ -192,12 +192,12 @@
 		71B2C7B21772753C005F74B3 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				716C7086176EAC4200D0A1EB /* TKAppDelegate.h */,
-				716C7087176EAC4200D0A1EB /* TKAppDelegate.m */,
+				716C7086176EAC4200D0A1EB /* CESAppDelegate.h */,
+				716C7087176EAC4200D0A1EB /* CESAppDelegate.m */,
 				716C708F176EAC4200D0A1EB /* MainStoryboard_iPhone.storyboard */,
 				716C7092176EAC4200D0A1EB /* MainStoryboard_iPad.storyboard */,
-				716C7095176EAC4200D0A1EB /* TKViewController.h */,
-				716C7096176EAC4200D0A1EB /* TKViewController.m */,
+				716C7095176EAC4200D0A1EB /* CESViewController.h */,
+				716C7096176EAC4200D0A1EB /* CESViewController.m */,
 				716C70B8176EB72E00D0A1EB /* imgres.jpeg */,
 			);
 			name = Support;
@@ -377,8 +377,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				716C7084176EAC4200D0A1EB /* main.m in Sources */,
-				716C7088176EAC4200D0A1EB /* TKAppDelegate.m in Sources */,
-				716C7097176EAC4200D0A1EB /* TKViewController.m in Sources */,
+				716C7088176EAC4200D0A1EB /* CESAppDelegate.m in Sources */,
+				716C7097176EAC4200D0A1EB /* CESViewController.m in Sources */,
 				716C70B7176EAE3D00D0A1EB /* CESConversorComprimento.m in Sources */,
 				71B2C7B0177274D1005F74B3 /* CESUser.m in Sources */,
 			);

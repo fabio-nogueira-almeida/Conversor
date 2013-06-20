@@ -12,37 +12,30 @@
 
 #pragma mark - Metodos de Teste unitário
 
- // Métodos de Centimetro
-
 - (float)centimetroParaMetro:(float)centimetro {
   return centimetro/100.f;
 };
 
-
- // Métodos de Metro
 - (float)metroParaCentimetro:(float)metro {
   return metro*100.f;;
 };
 
-
 #pragma mark - Metodos de teste por comportamento
 
-- (NSString*)isIMCCreated {
+- (NSString*)imcCreated {
   CESUser *imcUser = [self creatingIMCWithUserName:@"Fábio" andHeight:1.67 andWeight:65];
-  NSString *message = @"";
+  NSString *message = @"Cadastro de IMC falhou";
   
   if (imcUser) {
     message = [NSString stringWithFormat:@"Sucesso.\n Usuario %@ tem o IMC %f e a classificacao %@",imcUser.name, imcUser.imc ,imcUser.classification];
-  } else {
-    message = @"Cadastro de IMC falhou";
   }
   
   return message;
 }
 
 - (CESUser*)creatingIMCWithUserName:(NSString*)name
-                               andHeight:(float)height
-                               andWeight:(float)weight {
+                          andHeight:(float)height
+                          andWeight:(float)weight {
   
   CESUser *user = [[CESUser alloc] init];
   user.name = name;
@@ -82,8 +75,4 @@
     return @"Obesidade Grau III";
   }
 };
-
-#pragma mark - Metodos de Teste comportamental
-
-
 @end

@@ -11,7 +11,7 @@
 
 @interface CESConversorComprimento : NSObject
 
-- (NSString*)isIMCCreated;
+- (NSString*)imcCreated;
 
 - (float)centimetroParaMetro:(float)centimetro;
 - (float)metroParaCentimetro:(float)metro;

@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Fábio Nogueira . All rights reserved.
 //
 
-#import "TKViewController.h"
+#import "CESViewController.h"
 
-@interface TKViewController ()
+@interface CESViewController ()
 
 @end
 
-@implementation TKViewController
+@implementation CESViewController
 
 - (void)viewDidLoad
 {
