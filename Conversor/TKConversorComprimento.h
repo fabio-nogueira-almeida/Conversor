@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TKUser.h"
 
 @interface TKConversorComprimento : NSObject
+
+- (NSString*)isIMCCreated;
 
 - (float)centimetroParaMetro:(float)centimetro;
 - (float)metroParaCentimetro:(float)metro;

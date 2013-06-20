@@ -29,6 +29,7 @@
 		716C70A9176EAC4300D0A1EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 716C70A7176EAC4300D0A1EB /* InfoPlist.strings */; };
 		716C70B7176EAE3D00D0A1EB /* TKConversorComprimento.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */; };
 		716C70B9176EB72E00D0A1EB /* imgres.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 716C70B8176EB72E00D0A1EB /* imgres.jpeg */; };
+		71B2C7B0177274D1005F74B3 /* TKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B2C7AF177274D1005F74B3 /* TKUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		716C70B5176EAE3D00D0A1EB /* TKConversorComprimento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKConversorComprimento.h; sourceTree = "<group>"; };
 		716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKConversorComprimento.m; sourceTree = "<group>"; };
 		716C70B8176EB72E00D0A1EB /* imgres.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpeg; sourceTree = "<group>"; };
+		71B2C7AE177274D1005F74B3 /* TKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKUser.h; sourceTree = "<group>"; };
+		71B2C7AF177274D1005F74B3 /* TKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKUser.m; sourceTree = "<group>"; };
 		C5715A0064C54BDBBD41BFE9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D339AE31302A4C7596AF08EC /* libPods-ConversorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConversorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,16 +139,9 @@
 		716C707D176EAC4200D0A1EB /* Conversor */ = {
 			isa = PBXGroup;
 			children = (
-				716C7086176EAC4200D0A1EB /* TKAppDelegate.h */,
-				716C7087176EAC4200D0A1EB /* TKAppDelegate.m */,
-				716C708F176EAC4200D0A1EB /* MainStoryboard_iPhone.storyboard */,
-				716C7092176EAC4200D0A1EB /* MainStoryboard_iPad.storyboard */,
-				716C7095176EAC4200D0A1EB /* TKViewController.h */,
-				716C7096176EAC4200D0A1EB /* TKViewController.m */,
-				716C70B8176EB72E00D0A1EB /* imgres.jpeg */,
+				71B2C7B11772752D005F74B3 /* IMC */,
+				71B2C7B21772753C005F74B3 /* Support */,
 				716C707E176EAC4200D0A1EB /* Supporting Files */,
-				716C70B5176EAE3D00D0A1EB /* TKConversorComprimento.h */,
-				716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */,
 			);
 			path = Conversor;
 			sourceTree = "<group>";
@@ -180,6 +176,31 @@
 				716C70A7176EAC4300D0A1EB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71B2C7B11772752D005F74B3 /* IMC */ = {
+			isa = PBXGroup;
+			children = (
+				716C70B5176EAE3D00D0A1EB /* TKConversorComprimento.h */,
+				716C70B6176EAE3D00D0A1EB /* TKConversorComprimento.m */,
+				71B2C7AE177274D1005F74B3 /* TKUser.h */,
+				71B2C7AF177274D1005F74B3 /* TKUser.m */,
+			);
+			name = IMC;
+			sourceTree = "<group>";
+		};
+		71B2C7B21772753C005F74B3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				716C7086176EAC4200D0A1EB /* TKAppDelegate.h */,
+				716C7087176EAC4200D0A1EB /* TKAppDelegate.m */,
+				716C708F176EAC4200D0A1EB /* MainStoryboard_iPhone.storyboard */,
+				716C7092176EAC4200D0A1EB /* MainStoryboard_iPad.storyboard */,
+				716C7095176EAC4200D0A1EB /* TKViewController.h */,
+				716C7096176EAC4200D0A1EB /* TKViewController.m */,
+				716C70B8176EB72E00D0A1EB /* imgres.jpeg */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,6 +380,7 @@
 				716C7088176EAC4200D0A1EB /* TKAppDelegate.m in Sources */,
 				716C7097176EAC4200D0A1EB /* TKViewController.m in Sources */,
 				716C70B7176EAE3D00D0A1EB /* TKConversorComprimento.m in Sources */,
+				71B2C7B0177274D1005F74B3 /* TKUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
